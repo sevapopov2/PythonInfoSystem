@@ -1,0 +1,36 @@
+[flake8]
+# Reporting:
+count = True
+statistics = True
+show-source = True
+
+# Setup flake8-import-order
+application-import-names = src
+import-order-style = google
+
+# Other options:
+# Final bracket should match indentation of the start of the line of the opening bracket
+hang-closing = False
+max-complexity = 10
+max-line-length = 100
+avoid-escape = False
+
+ignore =
+    E252,  # Missing whitespace around parameter equals
+  E303,  # Too many blank lines
+    E701  # Multiple statements on one line (colon)
+
+exclude =
+    .vscode,
+    .git,
+    .gitignore,
+    .env,
+    pycache,
+    venv,
+    LICENSE,
+    Pipfile,
+    Pipfile.lock,
+    *.code-workspace,
+    *.db,
+    *.sql,
+    *.md
