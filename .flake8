@@ -34,3 +34,4 @@ exclude =
     *.db,
     *.sql,
     *.md
+    *.sqlite3
