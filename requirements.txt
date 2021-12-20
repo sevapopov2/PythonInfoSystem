@@ -12,7 +12,6 @@ identify==2.4.0
 mccabe==0.6.1
 nodeenv==1.6.0
 platformdirs==2.4.0
-pre-commit==2.16.0
 pycodestyle==2.8.0
 pydocstyle==6.1.1
 pyflakes==2.4.0
