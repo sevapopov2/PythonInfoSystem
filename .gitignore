@@ -1,5 +1,6 @@
 .vscode/
-static/
+/static
+PythonInfoSystem/static/
 venv/
 __pycache__/
 *.sqlite3
