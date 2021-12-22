@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Обучение Python</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        {% if topics_list %}
+        <ul>
+            {% for topic in topics_list %}
+            <li>
+                <a href="/contents/{{ topic.id }}/">{{ question.question }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+        {% else %}
+        <p>There are no topics available</p>
+        {% endif %}
+    </body>
+</html>
