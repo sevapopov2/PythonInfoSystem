@@ -1,15 +1,20 @@
+appdirs==1.4.4
 asgiref==3.4.1
 backports.entry-points-selectable==1.1.1
+certifi==2020.12.5
 cfgv==3.3.1
 distlib==0.3.4
 Django==4.0
+django-crispy-forms==1.14.0
 filelock==3.4.0
 flake8==4.0.1
 flake8-builtins==1.5.3
 flake8-docstrings==1.6.0
 flake8-import-order==0.18.1
+flake8-quotes==3.2.0
 identify==2.4.0
 mccabe==0.6.1
+mysql-connector-python==8.0.27
 nodeenv==1.6.0
 platformdirs==2.4.0
 pycodestyle==2.8.0
@@ -23,3 +28,4 @@ sqlparse==0.4.2
 toml==0.10.2
 tzdata==2021.5
 virtualenv==20.10.0
+virtualenv-clone==0.5.4
