@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends 'contents/base.html' %}
 {% block title %}Главная{% endblock %}
 {% block content %}
 {% if user.is_authenticated %}
@@ -12,6 +12,8 @@
     Вход не выполнен.
     <br>
     <a href="{% url 'login' %}">Войдите</a>
+    <br>
+    <a href="{% url 'signup' %}">Зарегистрируйтесь</a>
 </div>
 {% endif %}
 {% endblock %}
