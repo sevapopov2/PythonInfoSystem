@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+django-crispy-forms = "*"
+
+[dev-packages]
+flake8 = "*"
+flake8-builtins = "*"
+flake8-docstrings = "*"
+flake8-import-order = "*"
+flake8-quotes = "*"
+autopep8 = "*"
+
+[requires]
+python_version = "3.10"
